@@ -5,6 +5,7 @@
 name = "首页"
 url = "/"
 weight = 1
+hasChildren = true
 
 [[main]]
 parent = "首页"
@@ -25,6 +26,7 @@ url = "blog/"
 name = "注册登记"
 url = "about/"
 weight = 2
+hasChildren = true
 
 [[main]]
 parent = "注册登记"
@@ -45,6 +47,7 @@ url = "blog/"
 name = "赛事"
 url = "elements/"
 weight = 3
+hasChildren = true
 
 [[main]]
 parent = "赛事"
@@ -64,7 +67,7 @@ url = "blog/"
 [[main]]
 weight = 4
 name = "联系"
-url = "about/"
+url = "contact/"
 
 
 # footer menu
