@@ -1,0 +1,84 @@
+############# Chinese navigation ##############
+
+# main menu
+[[main]]
+name = "首页"
+url = "/"
+weight = 1
+
+[[main]]
+parent = "首页"
+name = "龙舟赛的渊源和历史"
+url = "blog/"
+
+[[main]]
+parent = "首页"
+name = "法兰克福龙舟运动"
+url = "blog/"
+
+[[main]]
+parent = "首页"
+name = "龙舟技术探讨"
+url = "blog/"
+
+[[main]]
+name = "注册登记"
+url = "about/"
+weight = 2
+
+[[main]]
+parent = "注册登记"
+name = "赛事描述"
+url = "blog/"
+
+[[main]]
+parent = "注册登记"
+name = "参赛规则"
+url = "blog/"
+
+[[main]]
+parent = "注册登记"
+name = "赛前试训"
+url = "blog/"
+
+[[main]]
+name = "赛事"
+url = "elements/"
+weight = 3
+
+[[main]]
+parent = "赛事"
+name = "比赛路线/平面图"
+url = "blog/"
+
+[[main]]
+parent = "赛事"
+name = "比赛规则"
+url = "blog/"
+
+[[main]]
+parent = "赛事"
+name = "安全须知"
+url = "blog/"
+
+[[main]]
+weight = 4
+name = "联系"
+url = "about/"
+
+
+# footer menu
+[[footer]]
+name = "About"
+url = "about/"
+weight = 1
+
+[[footer]]
+name = "Elements"
+url = "elements/"
+weight = 2
+
+[[footer]]
+name = "Privacy Policy"
+url = "privacy-policy/"
+weight = 3
